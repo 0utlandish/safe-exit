@@ -1,0 +1,1 @@
+INSERT INTO `users` (username, password, created_at) VALUES ('komeil', '123456', strftime('%Y-%m-%d %H-%M-%S','now')), ('abdollah', '123456', strftime('%Y-%m-%d %H-%M-%S','now')), ('hossein', '123456', strftime('%Y-%m-%d %H-%M-%S','now')), ('emp', '123456', strftime('%Y-%m-%d %H-%M-%S','now'))

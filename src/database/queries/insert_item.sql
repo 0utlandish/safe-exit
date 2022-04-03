@@ -1,0 +1,1 @@
+INSERT INTO `items` (order, name, created_at) VALUES (?, ?, now())

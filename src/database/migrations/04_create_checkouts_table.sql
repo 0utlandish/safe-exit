@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS checkouts (
+   id INTEGER PRIMARY KEY,
+   username VARCHAR(255) NOT NULL,
+   created_at TIMESTAMP
+)
