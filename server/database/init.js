@@ -2,7 +2,7 @@ const sqlite3 = require("sqlite3").verbose();
 const md5 = require("md5");
 const {readFromSqlFile, getListOfMigrations, migrate} = require("./helpers");
 
-const src = "src/database/storage.sqlite";
+const src = "server/database/storage.sqlite";
 
 const migrations = getListOfMigrations();
 

@@ -1,0 +1,103 @@
+/* Generated for Needle v2.9.1 on  */
+/* Available weights for `Vazir`: 100, 300, 400, 500, 700, 900 */
+@font-face {
+  font-family: Vazir;
+  src: url("https://fdn.fontcdn.ir/Fonts/Vazir/142542b7232df63f4f3b3357fd0f66a823580d1b2f020cdb4bdd77f2b4855038.eot");
+  src: url("https://fdn.fontcdn.ir/Fonts/Vazir/ad3cd4cbda94aee8578c1b622b9002f9dfe345c05870eb375a02da853d08f072.woff2") format("woff2"), url("https://fdn.fontcdn.ir/Fonts/Vazir/7029f2f063c6d00005e5d2e09c72bb347b932db1ce0c5a169a2383ce61e57ca5.woff") format("woff"), url("https://fdn.fontcdn.ir/Fonts/Vazir/fbf69c15be382ecbb610544ce393affeb070b04de58fda230db9dd0b005f1b5f.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: Vazir;
+  src: url("https://fdn.fontcdn.ir/Fonts/Vazir/55b3e762c851b57dc57bb9998000f18c3193b9852f4924a3112e5a05f3b241da.eot");
+  src: url("https://fdn.fontcdn.ir/Fonts/Vazir/046a76746039189feb148c360dfb82d07a1e3464d31a2078363587af6f5a1cfb.woff2") format("woff2"), url("https://fdn.fontcdn.ir/Fonts/Vazir/b9e4044238227ce402881503192eb3ebff427c237e01e5764fbbf37954feeb0c.woff") format("woff"), url("https://fdn.fontcdn.ir/Fonts/Vazir/fe641502f88d291cb4197c75028dd2ce572725e7112db8722f1569fd01093bd9.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: Vazir;
+  src: url("https://fdn.fontcdn.ir/Fonts/Vazir/d9793ae87f3e7d6f420a669dc63af6ba5debd0dfa69dceef8714556dd8b8a4a4.eot");
+  src: url("https://fdn.fontcdn.ir/Fonts/Vazir/d783603a0dd07db6896ecd8a3460e2256a48dca62373a0478706a05490c1a2d8.woff2") format("woff2"), url("https://fdn.fontcdn.ir/Fonts/Vazir/d8ac444cba062f8881a04ae6c2c1b64f8e783d24077ccaeb3b253e45b0e3f68c.woff") format("woff"), url("https://fdn.fontcdn.ir/Fonts/Vazir/7bc35750358416a6a7189b02d39b945605b8f2fc6a425521c41051a0209cb564.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+/* Powered by FontServer.ir */
+/* Page-generation Time: 0.001500 s | Memory Usage: 59,384 B */
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #EEEEEE;
+  font-family: 'Vazir', sans-serif;
+  direction: rtl;
+}
+.container {
+  max-width: 560px;
+  margin: 2rem auto;
+  box-sizing: border-box;
+  padding: 1rem;
+  background-color: #fff;
+  font-size: 0.9rem;
+  box-shadow: 0px 0px 12px -8px black;
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 460px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .container {
+    width: 360px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .container {
+    width: 320px;
+  }
+}
+.container .item {
+  position: relative;
+}
+.container .item input[type="checkbox"] {
+  display: none;
+}
+.container .item input[type="checkbox"] + label {
+  position: relative;
+  display: inline-block;
+  padding: 0.6rem 2rem 0.6rem 1rem;
+}
+.container .item input[type="checkbox"] + label:hover {
+  cursor: pointer;
+}
+.container .item input[type="checkbox"] + label:before {
+  content: "";
+  position: absolute;
+  width: 0.6rem;
+  height: 0.6rem;
+  background-color: #fff;
+  border: 3px solid #4FC3F7;
+  transition-duration: 0.4s;
+  margin-right: 0.4rem;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.container .item input[type="checkbox"] + label:after {
+  content: "";
+  border-top: 2px dashed transparent;
+  transition-duration: 0.4s;
+}
+.container .item input[type="checkbox"]:checked + label:before {
+  background-color: #4FC3F7;
+}
+.container .item input[type="checkbox"]:checked + label:after {
+  content: "";
+  position: absolute;
+  width: calc(100% - 2rem);
+  border-top: 2px dashed #4FC3F7;
+  left: 0;
+  top: 51%;
+  transform: translateY(-50%);
+}
