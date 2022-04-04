@@ -22,14 +22,14 @@
   font-style: normal;
 }
 /* Powered by FontServer.ir */
-/* Page-generation Time: 0.001500 s | Memory Usage: 59,384 B */
+/* Page-generation Time: 0.002519 s | Memory Usage: 59,384 B */
 html,
 body {
   padding: 0;
   margin: 0;
 }
 body {
-  background-color: #EEEEEE;
+  background-color: ghostwhite;
   font-family: 'Vazir', sans-serif;
   direction: rtl;
 }
